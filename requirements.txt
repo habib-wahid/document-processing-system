@@ -1,12 +1,11 @@
-fastapi[standard]==0.113.0
+fastapi[standard]==0.120.0
 pydantic==2.8.0
+python-multipart==0.0.18
+uvicorn[standard]==0.38.0
 
 #langchain
 langchain
-langchain-core
-langchain-community
-langchain-anthropic
-langchain-openai
-langchainhub
 langchain-google-genai
+langchain-community
+pypdf
 
